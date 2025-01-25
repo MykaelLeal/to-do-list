@@ -121,7 +121,7 @@ input:focus, select:focus {
 }
 
 .filter, .search {
-  border-bottom: 1px solid  #77ffc0;;
+  border-bottom: 1px solid  #77ffc0;
   margin-bottom: 20px;
   padding-bottom: 20px;
 }
