@@ -7,26 +7,29 @@
 
 body {
   font-family: Arial;
-  background-color:#2e2e2e;
+  background-color:#282828;
   color: #f0f0f0;
-  transform: scale(0.85);
+  width: 100%;
+  padding: 30px;
  
   
- 
 
 }
 
 .container {
   max-width: 600px;
-  margin: 0 auto;
-  background-color: #545454;
+  margin: 0 auto 300px;
+  background-color: #333333;
   padding: 20px 30px;
   border-radius: 10px;
+  
  
 }
 
 h2 {
   text-align: center;
+  color: #77ffc0;
+  margin-bottom: 30px;
   
 }
 
@@ -46,7 +49,7 @@ input {
 }
 
 button {
-  background-color: #333974;
+  background-color: #0d9e0d;
   color: #FFF;
   padding: 5px 10px;
   border: none;
@@ -65,7 +68,7 @@ button:hover {
 .todo-list {
   margin-bottom: 20px;
   padding-bottom: 20px;
-  border-bottom: 1px solid #f0f0f0 ;
+  border-bottom: 1px solid  #77ffc0; ;
 
 }
 
@@ -77,6 +80,7 @@ button:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #3b3b3b;
 
 }
 
@@ -89,30 +93,42 @@ button:hover {
 }
 
 .todo-form {
-  padding: 50px;
+  padding-bottom: 1.5rem;
 }
 
-input {
+input, select {
   padding: 5px;
+  margin-top: 10px;
   margin-bottom: 10px;
-  border: 1px solid #000;
+  border: 1px solid #7a7a7a;
   border-radius: 3px;
   width: 100%;
+  background-color: transparent;
+  color:#f0f0f0;
+  transition: all 0.3s ease;
 }
 
-select {
-  padding: 5px;
-  margin-bottom: 10px;
-  border: 1px solid #000;
-  border-radius: 3px;
-  width: 50%;
+input::placeholder {
+  color: #bbb;
+  font-size: 14px;
+}
+
+input:focus, select:focus {
+  background-color: #7a7a7a;
+  color: #fff;
+  outline: none;
 
 }
 
 .filter, .search {
-  border-bottom: 1px solid #505;
+  border-bottom: 1px solid  #77ffc0;;
   margin-bottom: 20px;
   padding-bottom: 20px;
+}
+
+.filter h3 {
+  color: #f0f0f0;
+  
 }
 
 .filter-options {

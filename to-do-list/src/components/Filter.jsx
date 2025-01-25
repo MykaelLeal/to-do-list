@@ -3,7 +3,7 @@ import React from 'react'
 const Filter = ({filter, setFilter, setSort}) => {
   return (
     <div className='filter'>
-        <h2>Filtrar: </h2>
+        <h3>Filtrar: </h3>
         <div className='filter-options'>
             <div>
                 <p>Status: </p>

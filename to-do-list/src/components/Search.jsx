@@ -12,9 +12,6 @@ const Search = ({search, setSearch }) => {
 
           />
 
-
-
-
     </div>
   )
 }

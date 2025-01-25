@@ -7,13 +7,13 @@ const TodoForm = ({ addTodo }) => {
     const [category, setCategory] = useState("");
 
     const handleSubmit = (e) => {
-        e.preventDefault(); // Evita o comportamento padrão de recarregar a página
+        e.preventDefault(); 
         if (!text || !category) {
           return;
         }
         addTodo(text, category);
-        setText(''); // Limpa o campo de texto após o envio
-        setCategory(''); // Reseta a seleção da categoria
+        setText(''); 
+        setCategory('');
       };
 
       return (
