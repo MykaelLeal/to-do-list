@@ -1,8 +1,7 @@
 # 📝 To-Do List: Lista de Tarefas
 
 ## ✨ Sobre o Projeto
-Este projeto é uma aplicação de lista de tarefas simples e intuitiva, desenvolvida para ajudar você a organizar suas atividades diárias. 
-Com ele, é possível adicionar e selecionar a categoria da tarefa, excluir tarefas de forma prática, filtrar a tarefa por status, filtrar por ordem alfabética,
+Este projeto é uma aplicação de lista de tarefas simples e intuitiva, desenvolvida para eu pôr em prática minhas habilidades de CRUD. Com ela, é possível adicionar e selecionar a categoria da tarefa, excluir tarefas de forma prática, filtrar a tarefa por status, filtrar por ordem alfabética,
 além de pesquisar por elas de forma rápida e fácil, através do seu campo de busca.
 
 ---
